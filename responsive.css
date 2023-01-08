@@ -1,0 +1,96 @@
+@media only screen and (max-width: 800px) {
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+    
+  
+    nav ul {
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      transition: all 0.5s;
+      overflow: hidden;
+    }
+    #nav ul li {
+      display: block;
+      margin: 10px 50px 10px 0;
+    }
+    #nav ul li a {
+      color: white;
+    }
+  }
+  .title {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .rating {
+    color: orangered;
+  }
+
+  /* breakpoint */
+
+
+  @media only screen and (max-width: 600px){
+.row{
+  align-items: center;
+}
+.box1, .box2, .box3{
+  flex-basis: 100%;
+
+}
+  }
+  @media (max-width:300px){
+    #logo{
+      margin-left: -1.5rem;
+      margin-right: 1rem;
+    }
+    .box1 h1 {
+      font-size: 1.8rem;
+      line-height: 37px;
+      margin: 12px 12px;
+    }
+    .box1 p {
+     margin: 1px 12px;
+    }
+    .btn{
+      font-size: .8rem;
+      margin: 1.3rem;
+    }
+    
+  }
+  @media (max-width:330px) and (min-width:0px){
+    #navbar img{
+      margin-left: 2px;
+    }
+    .box2 img{
+      display: block;
+      margin: 1px auto;
+      width: 85%;
+    }
+    #input{
+      width: 90%;
+    }
+    
+    .box1 h1{
+      padding: 6px 0;
+      display: block;
+      margin: 1px auto;
+      width: 85%;
+    }
+    .box1 p{
+      display: block;
+      margin: 1px auto;
+      width: 83%;
+    }
+    .box1 img {
+      max-width: 80%;
+      padding: 50px 0;
+    }
+    .title{
+      font-size: 1.5rem;
+  }
+  }

@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+#logo {
+  color: white;
+  font-weight: bold;
+  border: 2.5px solid black;
+  padding: 0 4px;
+  font-size: 1.5rem;
+}
+#logo a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+#logo span {
+  font-weight: bold;
+  color: rgb(237, 94, 22);
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+#nav {
+  flex: 1;
+  text-align: right;
+}
+#nav ul {
+  display: inline-block;
+  list-style: none;
+}
+#nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+#nav ul li a {
+  transition: all .5s;
+  font-size: 1rem;
+  text-decoration: none;
+  color: rgb(97, 97, 97);
+}
+#nav ul li a:hover{
+  font-size: 1.2rem;
+  color: rgb(53, 53, 53);
+}
+p {
+  color: #555;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row {
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+.box1 {
+  flex-basis: 50%;
+  max-width: 300px;
+}
+.box1 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+.box1 h1 {
+  font-size: 3rem;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.btn {
+  margin-bottom: 2rem;
+  transition: all 0.5s;
+  display: inline-block;
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(255, 98, 0);
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+  border: none;
+}
+.btn:hover {
+  font-size: 1.1rem;
+  box-shadow: 2px 2px 1rem rgb(0, 0, 0);
+  cursor: pointer;
+  background-color: rgba(255, 98, 0, 0.783);
+}
+.header {
+  height: 100%;
+  background-color: rgb(255, 228, 233);
+}
+.header .row {
+  margin-top: 70px;
+}
+#cat {
+  margin: 70px 0;
+}
+.box2 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.box2 img {
+  box-shadow: 2px 2px 0.5rem black;
+  transition: all 0.5s;
+  width: 100%;
+}
+.box2 img:hover {
+  transform: translateY(-1rem);
+  box-shadow: 2px 2px 3rem black;
+}
+.small-cat {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.box3 {
+  transition: all 0.5s;
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+}
+.box3 img {
+  transition: all 0.5s;
+  box-shadow: 2px 2px 0.5rem black;
+  width: 100%;
+}
+.box3 img:hover {
+  width: 104%;
+  box-shadow: 2px 2px 3rem black;
+}
+.box3 img:focus {
+  width: 600px;
+  height: 700px;
+}
+.box3:hover {
+  transform: translateY(-10px);
+}
+.menu-icon {
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+
+.offer {
+  padding: 1rem 1px;
+  height: 100%;
+  background-color: rgb(255, 228, 233);
+}
+
+.testimonials {
+  text-align: center;
+  height: 100%;
+  padding-top: 100px;
+}
+.testimonials img {
+  box-shadow: 0 0 0 black;
+  width: 50px;
+  border-radius: 5rem;
+}
+.testimonials .box3 {
+  box-shadow: 2px 2px 1rem black;
+}
+.testimonials .box3:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 2rem black;
+}
+.testimonials img:hover {
+  box-shadow: 0 0 0 black;
+  width: 50px;
+  border-radius: 5rem;
+}
+.fa-quote-left {
+  font-size: 2rem;
+  color: orangered;
+}
+.brands {
+  margin: 9rem auto;
+}
+.box5 {
+  width: 160px;
+}
+.box5 img {
+  filter: grayscale(100%);
+}
+.box5 img:hover {
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+.about {
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  padding: 60px 0 20px;
+}
+.box6-3 li a {
+  margin: 5px 0;
+  color: rgb(121, 121, 121);
+  text-decoration: none;
+}
+.box6-4 li a {
+  margin: 5px 0;
+  color: rgb(145, 145, 145);
+  text-decoration: none;
+}
+.box6-2 ul {
+  margin-bottom: 20px;
+  color: rgb(247, 247, 247);
+  font-size: 2rem;
+}
+.box6-2 ul span {
+  color: rgb(255, 85, 0);
+
+}
+h6 {
+  margin: 1rem 0;
+  color: rgb(255, 85, 0);
+  font-size: 1.8rem;
+}
+.box6-1,
+.box6-2,
+.box6-3,
+.box6-4 {
+  min-width: 250px;
+  margin: 30px 0;
+}
+.box6-1 p,
+.box6-2 p {
+  max-width: 100%;
+  color: grey;
+}
+.box6-1 {
+  flex-basis: 30%;
+}
+.box6-2 {
+  flex: 1;
+  text-align: center;
+}
+.box6-3,
+.box6-4 {
+  flex-basis: 14%;
+  text-align: center;
+}
+.footer {
+  color: rgb(143, 143, 143);
+  background-color: rgb(0, 0, 0);
+  font-size: 1rem;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem 0;
+  align-items: center;
+}
+.app-logo {
+  margin-top: 20px;
+}
+.app-logo img {
+  width: 100px;
+}
+
+/* contact us page */
+
+form{
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 5rem;
+  margin-top: -2rem;
+  height: 400px;
+  width: 350px;
+  box-shadow: 2px 2px 1rem black;
+  background-color: rgb(255, 212, 212);
+  transition: all .5s;
+}
+form:hover{
+  box-shadow: 2px 2px 2rem black;
+}
+.chead{
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+input{
+  margin: .5rem;
+  padding: .5rem;
+}
+.cbtn{
+  font-size: 2rem;
+  
+}
+#btn2{
+  margin-top: 2rem;
+  width: 100px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border: none;
+  box-shadow: 2px 2px .3rem black;
+  background-color: rgb(255, 126, 173);
+  cursor: pointer;
+  transition: all .1s;
+}
+#btn2:active{
+  transform: translateY(3px);
+  box-shadow: 2px 2px  .3rem black;
+}

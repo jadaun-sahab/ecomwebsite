@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <script src="https://kit.fontawesome.com/b06a377e67.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <style>
+        .title2{
+            font-size: 2rem;
+            margin-top: 6rem;
+            margin-bottom: 2rem;
+        }
+        .header2{
+            background-color: #fff;
+        }.box3 h1{
+           max-width:120%;
+        }
+        .img{
+            width: 115px;
+            display: flex;
+            padding: 0 10px;
+        }
+        h5{
+            margin-bottom: 2rem;
+        }
+        h3{
+            margin: 1rem 0;
+        }
+        p{
+            margin: .7rem 0;
+            color: black;
+            font-weight: bold;
+        }
+        .img:hover{
+            box-shadow: 2px 2px 2px rgba(255, 255, 255, 0);
+            max-width: 200%;
+            display: block;
+        }
+        .img:active{
+            max-width: 200%;
+        }
+        @media (max-width:900px) and (min-width:0px){
+            .img{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header2">
+        <div class="container">
+            <nav id="navbar">
+                <div id="logo"><a href="/index.html"><span>AVH</span>STORE</a></div>
+                <div id="nav">
+                    <ul id="MenuItems">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/product.html">Product</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- product -->
+
+
+    
+    <div class="small-cat">
+        <div class="row">
+            <div class="box3">
+               <a href="/product1.html"><img src="images/product-1.jpg" alt=""></a> 
+               <div class="img">
+               <img src="images/gallery-1.jpg" alt="">
+               <img src="images/gallery-2.jpg" alt="">
+               <img src="images/gallery-3.jpg" alt="">
+               <img src="images/gallery-4.jpg" alt="">
+            </div>
+            </div>
+            <div class="box3">
+                <h5>home/T-shirt</h5>
+                <h1>Red Printed T-Shirt BY HRX</h1>
+                <p>$50.00</p>
+                <h3>Product Details</h3>
+                <small> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis molestiae perspiciatis nemo exercitationem laborum placeat facere saepe iste! Omnis sit, reprehenderit natus similique aspernatur at illum itaque, sunt esse fugiat dicta nesciunt quam culpa molestiae quasi aperiam quod officiis molestias, repellat blanditiis provident dolor pariatur! Vel enim iste veritatis.</small>
+            </div>
+        </div>
+    </div>
+<!-- javascript -->
+    <script src="/indx.js"></script>
+
+</body>
+</html>

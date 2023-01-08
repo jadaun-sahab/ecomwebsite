@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT us</title>
+    <script src="https://kit.fontawesome.com/b06a377e67.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <style>
+        * {
+            background-color: rgb(255, 228, 233);
+            padding: 0;
+            margin: 0;
+        }
+
+
+
+        .about {
+            padding: 0;
+            color: white;
+            height: 100%;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+        }
+
+        .row {
+            justify-content: center;
+            width: 100%;
+            margin: 1rem auto;
+            display: block;
+        }
+
+        h6 {
+            text-shadow: 2px 2px 2px black;
+            padding: 2rem 0;
+            cursor: pointer;
+            color: rgb(232, 70, 0);
+            font-size: 3rem;
+        }
+
+
+        .box6-1 p {
+            font-size: 1.3rem;
+            max-width: 100%;
+            color: rgb(48, 48, 48);
+            padding-top: 2rem;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .box6-1 ul {
+            color: black;
+            text-align: center;
+            justify-content: center;
+            width: 100%;
+            margin: 1rem auto;
+            cursor: pointer;
+            font-size: 3rem;
+        }
+
+        .box6-1 ul span {
+            color: rgb(237, 94, 22);
+            font-size: 3rem;
+        }
+
+        .box6-1 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .box6-1 {
+            margin: 4rem 0;
+        }
+
+        .box6-2 li {
+            padding-bottom: 1rem;
+            font-size: 1.5rem;
+            list-style: none;
+        }
+
+        .box6-2 h6 {
+            padding-top: 0;
+            padding-bottom: .7rem;
+            margin: 1px;
+        }
+
+        .box6-2 {
+            margin: 4rem 0;
+        }
+
+        .box6-2 li a {
+            color: rgb(48, 48, 48);
+            text-decoration: none;
+        }
+
+        .box6-3 h6 {
+
+            margin: 1rem 0 .5rem 0;
+        }
+
+        .box6-3 li a {
+            color: rgb(48, 48, 48);
+            text-decoration: none;
+        }
+
+        .box6-3 li {
+            padding-bottom: 1rem;
+            font-size: 1.5rem;
+            list-style: none;
+        }
+
+        .box6-4 p {
+            max-width: 100%;
+            color: rgb(48, 48, 48);
+        }
+
+        .app-logo {
+            margin-top: 20px;
+        }
+
+        .app-logo img {
+            width: 100px;
+        }
+
+        .footer {
+            color: rgb(143, 143, 143);
+            background-color: rgb(0, 0, 0);
+            font-size: 1rem;
+            justify-content: center;
+            text-align: center;
+            padding: 0.5rem 0;
+            align-items: center;
+
+        }
+
+        @media (max-width:800px) and (min-width:0px) {
+            #nav ul li {
+                background-color: #333;
+                text-decoration: none;
+                list-style: none;
+            }
+
+            #nav ul li a {
+                background-color: #333;
+                text-decoration: none;
+                list-style: none;
+
+            }
+        }
+
+        @media (max-width:400px) and (min-width:0px) {
+            h6 {
+                font-size: 2rem;
+            }
+
+            .box6-1 ul {
+                font-size: 2.4rem;
+            }
+
+            .box6-1 ul span {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header3">
+        <div class="container">
+            <nav id="navbar">
+                <div id="logo">
+                    <a href="/index.html"><span>AVH</span>STORE</a>
+                </div>
+                <div id="nav">
+                    <ul id="MenuItems">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/product.html">Product</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </nav>
+
+        </div>
+    </div>
+    <hr>
+
+    <div class="about">
+        <div class="row">
+            <div class="box6-1">
+                <a href="/index.html">
+                    <ul><span>AVH</span>STORE</ul>
+                </a>
+                <p>our purpose is to sustainably make the pleasure and benefit of sports accessible to the many </p>
+            </div>
+            <hr>
+            <div class="box6-2">
+                <h6>Follow us</h6>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                <li><a href="https://twitter.com/i/flow/login">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/">Linkdin</a></li>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+            </div>
+            <hr>
+            <div class="box6-3">
+                <h6>Usefull links</h6>
+                <li><a href="#">Coupons</a></li>
+                <li><a href="#">Blog post</a></li>
+                <li><a href="#">Return policy</a></li>
+                <li><a href="#">Join affiliate</a></li>
+            </div>
+            <hr>
+            <div class="box6-4">
+                <h6>Download our app</h6>
+                <p>Download app for android and ios devices </p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <hr>
+    <!-- footer -->
+    <div class="footer">
+        &copy;All Right Are Reserved To AVHStore
+    </div>
+    <!-- javascript -->
+    <script src="/indx.js"></script>
+
+
+</body>
+
+</html>

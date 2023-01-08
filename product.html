@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <script src="https://kit.fontawesome.com/b06a377e67.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <style>
+        .hed {
+            display: flex;
+        }
+
+        .title2 {
+            font-size: 2rem;
+            margin-top: 6rem;
+            margin-bottom: 10rem;
+        }
+
+        .title3 {
+            position: relative;
+            top: 8.5rem;
+            left: -10em;
+        }
+
+        .title3 ul {
+
+            list-style: none;
+            margin: .5%;
+
+        }
+
+        .title3 ul li {
+            text-align: center;
+            float: left;
+            padding: 2px 0;
+            font-size: 1rem;
+            position: relative;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            width: 170px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            border: 2px solid rgb(2, 2, 2);
+        }
+
+        .title3 ul li:hover {
+            background: rgba(253, 242, 235, 0.648);
+        }
+
+        .title3 ul ul {
+            border: none;
+            display: none;
+        }
+
+        .title3 ul li:hover>ul {
+            display: block;
+        }
+
+        .title3 ul li ul li a {
+            text-decoration: none;
+        }
+
+        .header2 {
+            background-color: #fff;
+        }
+
+        .page {
+            display: flex;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="header2">
+        <div class="container">
+            <nav id="navbar">
+                <div id="logo"><a href="/index.html"><span>AVH</span>STORE</a></div>
+                <div id="nav">
+                    <ul id="MenuItems">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/product.html">Product</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </div>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- product -->
+
+
+
+    <div class="small-cat">
+        <div class="hed">
+            <h2 class="title2">All Product</h2>
+            <div class="title3">
+                <ul>
+                    <li>SHORT BY
+                        <ul>
+                            <li> <a href="byprice.html">BY Price</a></li>
+                            <li> <a href="byrating.html">BY Rating</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box3">
+                <a href="/product1.html"><img src="images/product-1.jpg" alt=""></a>
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="box3">
+                <img src="images/product-2.jpg" alt="">
+                <h4>Black Shoes By HRX</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>75.00</p>
+            </div>
+            <div class="box3">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Grey Pants</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$60.00</p>
+            </div>
+            <div class="box3">
+                <img src="images/product-4.jpg" alt="">
+                <h4>Plain Blue Puma T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box3">
+                <img src="images/product-5.jpg" alt="">
+                <h4>Grey shoes</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="box3">
+                <img src="images/product-6.jpg" alt="">
+                <h4>Black Puma T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>75.00</p>
+            </div>
+            <div class="box3">
+                <img src="images/product-7.jpg" alt="">
+                <h4>Socks by HRX</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$15.00</p>
+            </div>
+            <div class="box3">
+                <img src="images/product-8.jpg" alt="">
+                <h4>Fosil Dynamic Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box3">
+                <img src="images/product-9.jpg" alt="">
+                <h4>Roadstert Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="box3">
+                <img src="images/product-10.jpg" alt="">
+                <h4>Black shoes</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>75.00</p>
+            </div>
+            <div class="box3">
+                <img src="images/product-11.jpg" alt="">
+                <h4>Grey shoes</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$60.00</p>
+            </div>
+            <div class="box3">
+                <img src="images/product-12.jpg" alt="">
+                <h4>Black pants</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="page">
+            <div class="1">1</div>
+            <div class="2">2</div>
+            <div class="3">3</div>
+            <div class="4">4</div>
+            <div class="5">&#x2192</div>
+        </div>
+    </div>
+
+
+    <!-- about -->
+
+    <div class="about">
+        <div class="row">
+            <div class="box6-1">
+                <h6>Download our app</h6>
+                <p>Download app for android and ios devices </p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="box6-2">
+                <ul><span>AVH</span>STORE</ul>
+                <p>our purpose is to sustainably make the pleasure and benefit of sports accessible to the many </p>
+            </div>
+            <div class="box6-3">
+                <h6>Usefull links</h6>
+                <li><a href="#">Coupons</a></li>
+                <li><a href="#">Blog post</a></li>
+                <li><a href="#">Return policy</a></li>
+                <li><a href="#">Join affiliate</a></li>
+            </div>
+            <div class="box6-4">
+                <h6>Follow us</h6>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                <li><a href="https://twitter.com/i/flow/login">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/">Linkdin</a></li>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+            </div>
+        </div>
+    </div>
+    </div>
+    <hr>
+    <!-- footer -->
+    <div class="footer">
+        &copy;All Right Are Reserved To AVHStore
+    </div>
+    <!-- javascript -->
+    <script src="/indx.js"></script>
+
+
+</body>
+
+</html>

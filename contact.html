@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <script src="https://kit.fontawesome.com/b06a377e67.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <style>
+        @media(max-width:900px) and (min-width:300px){
+            .row {
+                display: block;
+            }
+            .container{
+                height: 100%;
+            }
+            form {margin-bottom: 5rem;}
+            .row form {
+                
+                height: 100%;
+                display: block;
+                margin: 2rem auto;
+                width: 80%;
+            }
+        }
+        @media (max-width:300px) and (min-width:0px){
+            .row form {
+                
+                height: 100%;
+                display: block;
+                margin: 2rem 7px;
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <nav id="navbar">
+                <div id="logo">
+                    <a href="/index.html"><span>AVH</span>STORE</a>
+                </div>
+                <div id="nav">
+                    <ul id="MenuItems">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/product.html">Product</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </nav>
+            <div class="row">
+                <div class="box1">
+                    <img src="images/image1.png" alt="">
+                </div>
+                <div class="box1">
+                    <form action="backend.python">
+                        <div class="chead">Fill UP Your Details</div>
+                        <hr>
+                        <div>
+                            NAME: &nbsp; &nbsp; <input type="text" name="" id="input" placeholder="Enter Your Nmae ">
+                        </div>
+                        <div>
+                            NUMBER: <input type="number" name="" id="input" placeholder="Enter Your Number ">
+                        </div>
+                        <div>
+                            EMAIL ID: <input type="email" name="" id="input" placeholder="Enter Your Email id">
+                        </div>
+                        <div>
+                            PASSWORD<input type="password" name="" id="input" placeholder="Enter Your Password ">
+                        </div>
+                        <div>
+                            <input type="submit" id="btn2" value="Submit"> <input type="reset" id="btn2" value="reset">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- about -->
+
+    <div class="about">
+        <div class="row">
+            <div class="box6-2">
+                <ul><span>AVH</span>STORE</ul>
+                <p>our purpose is to sustainably make the pleasure and benefit of sports accessible to the many </p>
+            </div>
+            <div class="box6-3">
+                <h6>Usefull links</h6>
+                <li><a href="#">Coupons</a></li>
+                <li><a href="#">Blog post</a></li>
+                <li><a href="#">Return policy</a></li>
+                <li><a href="#">Join affiliate</a></li>
+            </div>
+            <div class="box6-4">
+                <h6>Follow us</h6>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                <li><a href="https://twitter.com/i/flow/login">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/">Linkdin</a></li>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+            </div>
+            <div class="box6-1">
+                <h6>Download our app</h6>
+                <p>Download app for android and ios devices </p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<!-- footer -->
+<div class="footer">
+    &copy;All Right Are Reserved To AVHStore
+</div>
+<!-- javascript -->
+<script src="/indx.js"></script>
+
+</body>
+
+</html>
