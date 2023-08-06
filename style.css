@@ -4,6 +4,9 @@
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
+a{
+  color: black;
+}
 #logo {
   color: white;
   font-weight: bold;
