@@ -17,7 +17,7 @@
     }
     #nav ul li {
       display: block;
-      margin: 10px 0 10px 0;
+      margin: 10px 0;
     }
     #nav ul li a {
       color: white;
@@ -63,7 +63,7 @@
     }
     
   }
-  @media (max-width:330px) and (min-width:0px){
+  @media (max-width:330px) {
     #navbar img{
       margin-left: 2px;
     }
