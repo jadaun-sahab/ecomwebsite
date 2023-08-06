@@ -6,6 +6,7 @@
     
   
     nav ul {
+      text-align: center;
       position: absolute;
       top: 70px;
       left: 0;
@@ -16,7 +17,7 @@
     }
     #nav ul li {
       display: block;
-      margin: 10px 50px 10px 0;
+      margin: 10px 0 10px 0;
     }
     #nav ul li a {
       color: white;
